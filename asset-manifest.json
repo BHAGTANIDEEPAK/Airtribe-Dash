@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Airtribe-Dash/static/css/main.284142cc.css",
+    "main.js": "/Airtribe-Dash/static/js/main.b2b563cb.js",
+    "static/media/gradient-abstract-wireframe-background_23-2149009903.jpg": "/Airtribe-Dash/static/media/gradient-abstract-wireframe-background_23-2149009903.87dbb544eed8cf2fd439.jpg",
+    "index.html": "/Airtribe-Dash/index.html",
+    "main.284142cc.css.map": "/Airtribe-Dash/static/css/main.284142cc.css.map",
+    "main.b2b563cb.js.map": "/Airtribe-Dash/static/js/main.b2b563cb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.284142cc.css",
+    "static/js/main.b2b563cb.js"
+  ]
+}
