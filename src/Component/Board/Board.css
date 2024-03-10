@@ -1,0 +1,82 @@
+.board {
+    min-width: 290px;
+    height: 100%;
+    width: 290px;
+    max-height: 100%;
+    flex-basis: 290px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.board_top_more{
+    position: relative;
+    cursor: pointer;
+}
+
+.board-top{
+    display: flex;
+}
+.board-top-title{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    gap: 5px;
+    color: white;
+
+}
+
+.board-top-title span{
+    color: rgb(199, 191, 191);
+
+}
+.board_cards{
+    flex: 1;
+    background-color: #dfdede;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    overflow-y: auto;
+    max-height: 500px;
+}
+
+.board_cards_add{
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 1px 2px 0 1px rgba(0, 0, 0, 0.15);
+    width: 100%;
+    
+}
+.board_cards_add:hover{
+    background-color: #0056b3;
+
+}
+/* Add Card button style */
+.board_cards_add button {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #007bff; /* Blue background color */
+    color: #fff; /* White text color */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.board_cards_add button:hover {
+    background-color: #0056b3; /* Darker blue background color on hover */
+}
+
+
+.board_dropdown{
+    background-color: #fff;
+    width: 130px;
+    padding: 10px;
+    border-radius: 3px;
+    box-shadow: 1px 0 20px rgba(0,0,0,0.05);
+}
+.board_dropdown p{
+    cursor: pointer;
+}
