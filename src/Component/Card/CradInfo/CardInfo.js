@@ -65,8 +65,9 @@ function CardInfo(props) {
         const index = values.tasks?.findIndex(item=>item.id===id)
         if(index<0)return
 
-        const tempTasks=values.tasks?.splice(index,1)
-        setValues({...values,tasks:tempTasks})
+        const tempTasks = [...values.tasks];
+        tempTasks.splice(index, 1); // Correct usage of splice
+        setValues({ ...values, tasks: tempTasks });
     }
 
     const updateTask=(id,completed)=>{
