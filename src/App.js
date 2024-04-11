@@ -115,7 +115,7 @@ function App() {
   return (
     <div className="App">
       <div className="app_navbar">
-        <h2>Airtribe Dashboard</h2>
+        <h2>React Task Flow</h2>
       </div>
       <div className="main_content">
         <div className="app_outer">
