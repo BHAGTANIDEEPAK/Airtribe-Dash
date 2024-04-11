@@ -109,7 +109,7 @@ function App() {
   };
 
   useEffect(() => {
-    localStorage.setItem("React Task Flow", JSON.stringify(boards));
+    localStorage.setItem("Airtribe Dashboard", JSON.stringify(boards));
   }, [boards]);
 
   return (
